@@ -1,5 +1,8 @@
 $(document).ready(function() {
   $('.splash-screen').delay('2000').fadeOut('slow');
+  $('#home').hide();
+  $('#home').delay('2000').fadeIn('slow');
+
 
   function jsonThen(func) {
     return function (response) {
