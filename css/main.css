@@ -5,8 +5,7 @@
 	box-sizing: border-box;
 }
 
-*:before,
-*:after {
+*:before, *:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -15,8 +14,17 @@
 body {
 	margin: 0 auto;
   height: 100%;
-  background-color: #dddada;
-} 
+  background-color: #272727;
+  font-family: 'Corben', cursive;
+}
+
+#splashscreen{
+
+}
+
+#home{
+  
+}
 
 .splash-screen {
   position: fixed;
@@ -28,14 +36,38 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: #dddada;
+}
+
+
+
+.logo{
+  font-family: 'Sonsie One', cursive;
+}
+
+.form-group{
+  display: flex;
+  justify-content: center;
 }
 
 .search-bar {
   width: 90vw;
+  margin-top: 5vw;
+  border: 2px solid ;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px #808080;
 }
 
-.main-logo {
-  top: 50%;
-  left: 50%;
+.search-page h1{
+  display: flex;
+  justify-content: center;
+  color: #00BCD4;
+}
+
+.search-page h5{
+  display: flex;
+  justify-content: center;
+  margin-top: 2vw;
+  color: #f3f3f3;
+  font-size: 27px;
+
 }
