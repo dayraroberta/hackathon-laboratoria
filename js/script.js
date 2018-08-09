@@ -12,15 +12,16 @@ $(document).ready(function() {
 
   function myMethod(json) {
     $('.button-search').on('click', function(){
-      json.data.forEach(function (music) {
-        if ($('.search-bar').val() !== ''){
-          console.log('teste');
+      var input = $('.search-bar').val();
+      json.data.forEach(music => {
+        if (music.title.indexOf(input) > 0) {
+          console.log(music.title);
         }
-      // 
+
       });
     
     });
   }
-  fetch('https://api.deezer.com/search/track?q=soundtrack').then(jsonThen(myMethod));
+  fetch('https://api.deezer.com/search/track?q=soundtrack&render=json').then(jsonThen(myMethod));
 });
 
