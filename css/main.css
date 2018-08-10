@@ -18,6 +18,7 @@ body {
   font-family: 'Corben', cursive;
   display: flex;
   justify-content: center;
+  font-size: 20px;
 }
 
 .splash-screen {
@@ -46,25 +47,29 @@ body {
 .search-bar {
   margin-top: 5vw;
   width: 75vw;
-  height: 4vh;
+  height: 6vh;
   border: 2px solid ;
   border-radius: 10px;
-  box-shadow: 3px 3px 5px #808080;
   display: flex;
   justify-content: center;
 }
 
+::-webkit-input-placeholder {
+  color: red;
+  font-size: 10px;
+}
+
 .button-search{
   margin-top: 5vw;
-  width: 6vw;
-  height: 4vh;
+  width: 12vw;
+  height: 6vh;
   background-color: #00BCD4;
   border-radius: 10px;
   color: #ffffff;
 }
 
 .icon-film{
-  font-size: 24px;
+  font-size: 38px;
 }
 
 .search-page h1{
@@ -74,10 +79,10 @@ body {
   font-size: 50px;
 }
 
-.search-page h5{
+.message{
   margin-top: 2vw;
   color: #f3f3f3;
-  font-size: 27px;
+  font-size: 32px;
   display: flex;
   justify-content: center;
 }
@@ -87,6 +92,6 @@ body {
   height: auto;
   border: 3px solid #ffffff;
   border-radius: 10px;
-  margin-top: 10vw;
+  margin-top: 5vw;
   justify-content: center;
 }
