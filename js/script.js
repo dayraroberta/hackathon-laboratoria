@@ -4,6 +4,7 @@ $(document).ready(function() {
   $('#home').delay('2000').fadeIn('slow');
 
   $('.carousel').carousel();
+ 
 
   function jsonThen(func) {
     return function (response) {
@@ -12,11 +13,16 @@ $(document).ready(function() {
   }
 
   function myMethod(json) {
-    json.data.forEach(function (music){console.log(music.title)});
+    $('.button-search').on('click', function(){
+      json.data.forEach(function (music) {
+        if ($('.search-bar').val() !== ''){
+          console.log('teste');
+        }
+      // 
+      });
     
-    console.log(json.data);
+    });
   }
-
   fetch('https://api.deezer.com/search/track?q=soundtrack').then(jsonThen(myMethod));
 });
 
