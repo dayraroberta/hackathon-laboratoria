@@ -33,6 +33,7 @@ $(document).ready(function() {
               <source src=${music.preview} type="audio/mpeg">
             </audio>
             <p class="text-white">Ouça no <a href=${music.link}>Deezer</a></p>
+            <p>xuxu</p>
           `)
         }
 
