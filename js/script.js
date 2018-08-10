@@ -14,7 +14,7 @@ $(document).ready(function() {
   }
 
   function myMethod(json) {
-    $('.button-search').on('touchend', function(){
+    $('.button-search').on('touchstart', function(){
       var input = $('.search-bar').val();
       $('.carousel').hide();
       $('.message').hide();
