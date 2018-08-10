@@ -13,9 +13,21 @@ $(document).ready(function() {
   function myMethod(json) {
     $('.button-search').on('click', function(){
       var input = $('.search-bar').val();
+      $('#content').empty();
+      $('.search-bar').val('');
+
       json.data.forEach(music => {
-        if (music.title.indexOf(input) > 0) {
+        if (music.title.indexOf(input) !== -1 || music.album.title.indexOf(input) !== -1 || input === music.title) {
           console.log(music.title);
+          $('#content').append(`
+            <h3>${music.title}</h3>
+            <h5>${music.artist.name}</h5>
+            <img src=${music.album.cover_medium}>
+            <audio controls>
+              <source src=${music.preview} type="audio/mpeg">
+            </audio>
+            <p>Ouça no <a href=${music.link}>Deezer</a></p>
+          `)
         }
 
       });
