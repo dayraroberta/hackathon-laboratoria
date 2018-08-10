@@ -14,7 +14,7 @@ $(document).ready(function() {
   }
 
   function myMethod(json) {
-    $('.button-search').on('touchend', function(){
+    document.getElementsByClassName('button-search')[0].addEventListener('click', function() { 
       var input = $('.search-bar').val();
       $('.carousel').hide();
       $('.message').hide();
@@ -33,7 +33,6 @@ $(document).ready(function() {
               <source src=${music.preview} type="audio/mpeg">
             </audio>
             <p class="text-white">Ouça no <a href=${music.link}>Deezer</a></p>
-            <p>xuxu</p>
           `)
         }
 
