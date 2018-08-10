@@ -48,15 +48,8 @@ body {
   margin-top: 5vw;
   width: 75vw;
   height: 6vh;
-  border: 2px solid ;
   border-radius: 10px;
-  display: flex;
-  justify-content: center;
-}
-
-::-webkit-input-placeholder {
-  color: red;
-  font-size: 10px;
+  font-size: 30px;
 }
 
 .button-search{

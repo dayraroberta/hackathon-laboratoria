@@ -26,8 +26,7 @@ $(document).ready(function() {
           console.log(music.title);
           $('#content').append(`
             <h3 class="text-white">${music.title}</h3>
-            <hr class="w-75 text-gray h-1">
-            <h5>${music.artist.name}</h5>
+            <h5 class="text-white">${music.artist.name}</h5>
             <img src=${music.album.cover_medium}>
             <audio controls>
               <source src=${music.preview} type="audio/mpeg">
