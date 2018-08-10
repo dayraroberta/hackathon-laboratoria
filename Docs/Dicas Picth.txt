@@ -1,0 +1,58 @@
+Apresentação utilizando pitch
+
+Hackaton
+
+Protótipo: App no qual usuário busca or trilha sonora de filmes e séries
+
+5 minutos de apresentação
+
+1. Qual é a oportunidade.
+2. O Mercado que irá atuar.
+3. Qual é a sua solução.
+4. Seus diferenciais.
+5. O que está buscando.
+
+*Resuma seu projeto em uma frase
+Ex Steve Jobs sobre o IPOD "mil músicas no seu bolso." 	
+
+Preferir recursos visuais
+
+Use um exemplo de um possivel usuário ficticio: "Use um personagem fictício. Dê a ele um nome qualquer, como John, e mostre por quais situações o tal John está passando. A plateia entenderá mais facilmente o que você está propondo."
+
+"As pessoas só querem mais uma facilidade em suas vidas"
+
+Slide 1
+
+Identificar a oportunidade: Qual o mercado e a necessidade do mesmo.
+objetivo e direto.
+
+Ex: Iremos facilitar a busca de trilhas sonoras de filmes e series aos amantes da arte do cinema...
+
+Slide 2 e 3
+
+Apresentar a solução: Apresentar a solução para atender a necessidade, destacando a inovação/diferenciação.
+
+Ex: Através de app gratuito, onde contem banco de dados com filmes/series e suas respectivas soundtracks, ao digitar o nome do filme ou música retornará a busca ao usuário. (citar API)
+
+Inserir telas/amostras do protótipo (ou pequeno video demonstrativo
+Tudo o que facilite a compreensão e as funcionalidades do prototipo.
+
+Slide 4
+Destacar diferenciais: Reforçar as vantagens competitivas, métodos, API.
+Comparar com quem já tenha maior market-share no mercado que irá atuar.
+
+Ex: Nossa tecnologia, diferente do maior player deste mercado, não possui um app mobile no qual consegue fazer uma busca e obter resultados com poucos clicks.Design clean, fácil vizualização e a possiblidade de ouvir a musica 
+
+Aproveite para usar aquela frase de impacto, que mistura um slogan e um resumo do seu projeto.procurada no próprio app.
+
+// Apenas se quiserem complementar pra ficar mais tetral
+
+Slide 5
+
+Explanar proposta: “Já temos um protótipo funcional testado e avaliado pela companhia XYZ e estamos buscando um investimento de R$ nnn para completar o desenvolvimento, fabricar as unidades piloto e fechar os primeiros contratos”. E completar perguntando se teria interesse em avaliar para investir.
+
+Ou
+
+“Nossos serviços são remunerados com uma parte da economia que gerarmos para sua empresa; você não precisará fazer qualquer investimento”.
+
+	
