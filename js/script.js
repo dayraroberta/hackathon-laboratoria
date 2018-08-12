@@ -39,6 +39,6 @@ $(document).ready(function() {
     
     });
   }
-  fetch('http://cors.io/?https://api.deezer.com/search/track?q=soundtrack&render=json').then(jsonThen(myMethod));
+  fetch('https://cors.io/?https://api.deezer.com/search/track?q=soundtrack&render=json').then(jsonThen(myMethod));
 });
 
