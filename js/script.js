@@ -24,7 +24,6 @@ $(document).ready(function() {
 
       json.data.forEach(music => {
         if (music.title.indexOf(input) !== -1 || music.album.title.indexOf(input) !== -1 || input === music.title) {
-          console.log();
           $('#content').append(`
             <h3 class="text-white">${music.title}</h3>
             <h5 class="text-white">${music.artist.name}</h5>
@@ -40,6 +39,6 @@ $(document).ready(function() {
     
     });
   }
-  fetch('https://api.deezer.com/search/track?q=soundtrack&render=json').then(jsonThen(myMethod));
+  fetch('http://cors.io/?https://api.deezer.com/search/track?q=soundtrack&render=json').then(jsonThen(myMethod));
 });
 
